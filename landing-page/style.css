@@ -1,0 +1,50 @@
+:root {
+    --dark-button-color: #111B47;
+    --logo-color: #37447E;
+}
+
+body {
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    margin-left: 163.12px;
+}
+
+button {
+    cursor: pointer;
+}
+
+header {
+    margin-right: 163.12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #f8f9ff;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+}
+
+header h1 {
+    color: var(--logo-color);
+    font-size: 26px;
+    font-weight: 900;
+}
+
+header button {
+    background-color: var(--dark-button-color);
+    color: white;
+    width: 160px;
+    padding: 4px;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+}
