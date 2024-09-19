@@ -11,7 +11,6 @@ body {
     margin-left: 163.12px;
 }
 
-
 button {
     cursor: pointer;
 }
@@ -295,6 +294,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 40px;
 }
 
 .footer-left p {
@@ -320,6 +320,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 40px;
     color: #9292CC;
 }
 
