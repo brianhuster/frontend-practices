@@ -5,6 +5,7 @@
 
 body {
     max-width: 1440px;
+    margin: 0 auto;
     padding: 0;
     font-family: Roboto, sans-serif;
     margin-left: 163.12px;
@@ -15,7 +16,8 @@ button {
 }
 
 header {
-    margin-right: 163.12px;
+    margin-left: 165px;
+    margin-right: 165px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,6 +59,7 @@ header button {
 
 
 .hero {
+    margin-left: 165px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -113,5 +116,71 @@ header button {
     flex-shrink: 0;
     position: absolute;
     top: 245px;
-    left: 794.37px;
+    left: 909px;
 }
+
+
+.mask {
+    margin-top: 460px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 165px;
+    background-color: #ffffff;
+}
+
+.mask-content {
+    max-width: 540px;
+}
+
+.mask h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #091133;
+    margin-bottom: 16px;
+}
+
+.mask .description {
+    font-size: 16px;
+    color: #6F7CB2;
+    line-height: 1.6;
+    margin-bottom: 80px;
+}
+
+.features {
+    display: flex;
+    gap: 30px;
+}
+
+.feature {
+    max-width: 255px;
+}
+
+.feature-icon {
+    margin-bottom: 14px;
+}
+
+.feature-icon img {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+}
+
+.feature h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #091133;
+    margin-bottom: 6px;
+}
+
+.feature p {
+    font-size: 12px;
+    color: #5D6970;
+    line-height: 1.5;
+}
+
+.mask-image {
+    flex-shrink: 0;
+}
+
+
