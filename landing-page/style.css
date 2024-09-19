@@ -11,6 +11,7 @@ body {
     margin-left: 163.12px;
 }
 
+
 button {
     cursor: pointer;
 }
@@ -184,3 +185,164 @@ header button {
 }
 
 
+.cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 165px;
+    background-color: #ffffff;
+}
+
+.cta-image {
+    flex-shrink: 0;
+    margin-right: 100px;
+}
+
+.cta-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cta-content {
+    max-width: 540px;
+}
+
+.cta h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #091133;
+    margin-bottom: 16px;
+}
+
+.cta p {
+    font-size: 16px;
+    color: #6F7CB2;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.cta-button {
+    margin-top: 40px;
+    background-color: var(--dark-button-color);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 9px 40px;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.pricing {
+    padding: 40px;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.pricing h1 {
+    color: #091133;
+    font-size: 36px;
+    font-weight: 500px;
+    margin-bottom: 16px;
+}
+
+.pricing p {
+    color: #6b7c93;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+
+.price {
+    font-size: 50px;
+    color: #1a2b5f;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+
+.price-description {
+    color: #6b7c93;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+.simple-text {
+    color: #6b7c93;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.purchase-button {
+    background-color: var(--dark-button-color);
+    color: white;
+    border: none;
+    padding: 5px 24px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+
+footer {
+    background-color: #CDD1D4;
+    padding: 60px 165px;
+    margin-top: 297.18px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left p {
+    color: #939EA4;
+    margin: 0;
+}
+
+.footer-right .purchase-button {
+    background-color: #2b3667;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.footer-divider {
+    margin: 20px 40px;
+    border: 0.5px solid #e0e0e0;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #9292CC;
+}
+
+.footer-nav {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 40px;
+}
+
+.footer-nav li {
+    display: inline;
+}
+
+.footer-nav li a {
+    color: #a9a9a9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-socials a {
+    color: #a9a9a9;
+    margin: 0 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
