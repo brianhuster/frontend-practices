@@ -4,6 +4,7 @@
 }
 
 body {
+    max-width: 1440px;
     padding: 0;
     font-family: Roboto, sans-serif;
     margin-left: 163.12px;
@@ -18,7 +19,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
     background-color: #f8f9ff;
 }
 
@@ -29,8 +29,13 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #666;
+    color: #505F98;
     font-size: 14px;
+    margin-right: 60px;
+}
+
+nav a:last-child {
+    margin-right: 0;
 }
 
 header h1 {
@@ -43,8 +48,70 @@ header button {
     background-color: var(--dark-button-color);
     color: white;
     width: 160px;
-    padding: 4px;
+    padding: 7px;
     border: none;
     border-radius: 3px;
+    font-size: 12px;
+}
+
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    background-color: #F9F9FF;
+}
+
+.hero-content {
+    max-width: 540px;
+}
+
+.hero h2 {
+    margin-top: 250px;
+    font-size: 50px;
+    font-weight: 500;
+    color: #091133;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero p {
     font-size: 18px;
+    color: #505F98;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.hero button {
+    padding: 4px 40px;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.purchase-button {
+    background-color: var(--dark-button-color);
+    color: white;
+    border: none;
+}
+
+.learn-more-button {
+    background-color: transparent;
+    color: var(--dark-button-color);
+    border: 2px solid var(--dark-button-color);
+}
+
+.hero-image {
+    flex-shrink: 0;
+    position: absolute;
+    top: 245px;
+    left: 794.37px;
 }
